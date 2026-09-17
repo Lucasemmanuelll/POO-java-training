@@ -8,6 +8,7 @@ public class Produto2 {
         this.preco = preco;
     }
 
+
     public String getNome() {
         return nome;
     }

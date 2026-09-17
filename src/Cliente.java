@@ -18,4 +18,8 @@ public class Cliente {
     public void setSalario(double salario) {
         Salario = salario;
     }
+    public void ExibirCliente(){
+        System.out.println("Nome do cliente: "+ nome);
+        System.out.println("Salario do Cliente: "+ Salario);
+    }
 }

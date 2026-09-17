@@ -2,14 +2,11 @@ public class Main{
 
     public static void main(String[] args){
 
-        Livro livro = new Livro("O Hobbit");
+        Produto2 produto2 = new Produto2("Mesa",1700);
+        Calculadora calculadora = new Calculadora();
+        calculadora.exibirPreco(produto2);
 
-        Biblioteca biblioteca = new Biblioteca(livro);//
-
-        livro.mostrarLivro();
-
-        Curso curso = new Curso("Informática");
-        Aluno aluno = new Aluno(curso);
-
+        Cliente cliente = new Cliente("Maria Maria",1200);
+        Conta conta = new Conta(cliente);
     }
 }

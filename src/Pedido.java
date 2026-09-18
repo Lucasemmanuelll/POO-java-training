@@ -6,10 +6,9 @@ public class Pedido {
     Pedido(Cliente cliente) {
         this.cliente = cliente;
     }
-
-
-    public void adicionarProduto(Produto2 produto2){
-        this.produto2 = produto2;
+    public void adicionarProduto(Produto2 produto){
+        this.produto[indice] = produto;
+        indice++;
     }
     public void Exibircliente(Cliente cliente){
         cliente.ExibirCliente();

@@ -20,4 +20,12 @@ public class Pedido {
         System.out.println("Produto: "+ produto2.getNome());
         System.out.println("Preço:" + produto2.getPreco());
     }
+    // "int i" serve para controlar em qual posição o for está no array (int i ≠ variável indice)
+    public void ExibirProdutos(){
+        for(int i=0; i < produto.length;i++){//metodo que utiliza o for e .length para percorrer array
+            if(produto[i] != null){//verifica se posiçã o no array não está nula
+                System.out.println("Produto: " + produto[i]);
+            }
+        }
+    }
 }

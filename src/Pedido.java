@@ -13,9 +13,11 @@ public class Pedido {
         this.produto[indice] = produto; // mostra indice atual do array
         indice++;// incrementa somando a posição do array
     }
-    public void Exibircliente(Cliente cliente){
+    public void Exibircliente(Cliente cliente)
+    {
         cliente.ExibirCliente();
     }
+
     public void ExibirProduto(Produto2 produto2){
         System.out.println("Produto: "+ produto2.getNome());
         System.out.println("Preço:" + produto2.getPreco());

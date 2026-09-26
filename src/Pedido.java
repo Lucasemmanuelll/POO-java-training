@@ -6,6 +6,8 @@ public class Pedido {
 
     Pedido(Cliente cliente) {
         this.cliente = cliente;
+        this.produto = new Produto2[3];// criando o array. já deixa o produto preparado para nascer com array "new Produto2[3]" (Main: Pedido pedido = new Pedido(cliente);)
+                                        // O atributo "produto" desse objeto Pedido "this.produto"
     }
     public void adicionarProduto(Produto2 produto){
         this.produto[indice] = produto;

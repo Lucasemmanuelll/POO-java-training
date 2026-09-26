@@ -1,7 +1,8 @@
 public class Pedido {
 
     private Cliente cliente;
-    private Produto2 produto2;
+    private Produto2 produto[];// Variável produto capaz de guardar um array de referência para objetos Produto2
+    private int indice = 0;//serve para controlar onde inserir o próximo produto
 
     Pedido(Cliente cliente) {
         this.cliente = cliente;
